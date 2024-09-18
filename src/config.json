@@ -1,0 +1,63 @@
+{
+    "categories": [
+        {
+            "name": "AVIANART 2023",
+            "slug": "tournament2023"
+        },
+        {
+            "name": "AVIANART 2023 (Glitched)",
+            "slug": "tournament2023g"
+        },
+        {
+            "name": "AVIANART 2022",
+            "slug": "tournament2022"
+        },
+        {
+            "name": "Doors League",
+            "slug": "doorsleague"
+        },
+        {
+            "name": "TPH Variants",
+            "slug": "tph"
+        },
+        {
+            "name": "Kisspriest Variants",
+            "slug": "kisspriest"
+        },
+        {
+            "name": "Wizzrobe Modes",
+            "slug": "wizzrobe"
+        },
+        {
+            "name": "Mode Testing",
+            "slug": "testing"
+        },
+        {
+            "name": "Misc",
+            "slug": "uncategorized"
+        }
+    ],
+    "branches": [
+        {
+            "slug": "DR",
+            "name": "Aerinon's Door Randomizer (Stable)"
+        },
+        {
+            "slug": "DRUnstable",
+            "name": "Aerinon's Door Randomizer (Unstable)",
+            "default": true
+        },
+        {
+            "slug": "OWR",
+            "name": "Codemann's Overworld Randomizer (Stable)"
+        },
+        {
+            "slug": "OWRDev",
+            "name": "Codemann's Overworld Randomizer (Development)"
+        },
+        {
+            "slug": "Kara",
+            "name": "Karafruit's Overworld Randomizer (Stable)"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+@import "/comic-neue/comic-neue.css";
+
+html {
+    text-align:center;
+}
+a.av_link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+html, body, header, #app {
+    font-family: 'Comic Neue', cursive;
+    background :url("/images/cup.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: normal;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+     */
+
+}
+p {
+    font-size: 0.7em;
+}
+main {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+    border: 5px solid rgb(150,0,200);
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+}
+footer {
+    text-shadow: 1px 1px 2px #000000;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.7em;
+}
+.seedInfo {
+    text-align: left;
+}
+/*
+#footerText {
+    width: 25%;
+    display: block;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.35);
+}
+*/
+/* buttons */
+.av_btn{
+    font-family:inherit;
+    font-size: 14px;
+    min-width:160px;
+    border-radius:3px;border:0;
+    height: 40px;
+
+    background-color:#08B0B3;
+    color:white;
+
+    transition:background-color .15s;
+
+    box-sizing:border-box;
+    display: inline;
+
+}
+
+.av_btn.info {
+    background-color: #0dcaf0;
+}
+
+.av_btn.info:hover {
+    background-color: #9eeaf9;
+}
+
+.av_btn.confirm {
+    background-color: #75b798;
+}
+
+.av_btn.confirm:hover {
+    background-color: #bfe2e9;
+}
+
+.av_btn:hover{
+    cursor:pointer;
+    background-color:#6ea8fe;
+}
+.av_btn:active{
+    background-color:#297b81;
+    transform:translateY(1px)
+}
+.av_btn:disabled{opacity:.35 !important;cursor:not-allowed}
+
+.av_btn.genSeed{
+    margin: 10px;
+    width: 200px;
+}
+
+.inventorySlotItem {
+    image-rendering: pixelated;
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-position: 16px;
+    background-repeat: no-repeat;
+    background-size: 256px;
+    background-image: url('/assets/ItemsAll.png');
+}

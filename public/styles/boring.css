@@ -1,0 +1,130 @@
+html {
+    text-align:center;
+}
+a.av_link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f2425;
+        color: rgb(240, 240, 240);
+    }
+}
+
+p {
+    font-size: 0.7em;
+}
+
+.choices {
+    background-color: var(--bs-tertiary-bg);
+    color: var(--bs-body-color);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.choices__inner {
+    border: none !important;
+}
+
+.choices__item, .choices__inner, .choices__item--selectable, .choices__list, .choices__item--dropdown, .p-lg-2 {
+    color: inherit !important;
+    background-color: inherit !important;
+}
+
+.choices[data-type*="select-one"]::after {
+    border-color: var(--bs-body-color) transparent transparent !important;
+}
+
+.choices[data-type*="select-one"].is-open::after {
+    border-color: transparent transparent var(--bs-body-color) !important;
+    margin-top: -7.5px !important;
+}
+
+.choices__inner:hover, .choices__item:hover, .choices__item--selectable:hover {
+    background-color: var(--bs-secondary-bg) !important;
+}
+
+main {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+footer {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.7em;
+}
+.seedInfo {
+    text-align: left;
+}
+/*
+#footerText {
+    width: 25%;
+    display: block;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.35);
+}
+*/
+/* buttons */
+.av_btn{
+    font-family:inherit;
+    font-size: 14px;
+    min-width:160px;
+    border-radius:3px;border:0;
+    height: 40px;
+
+    background-color:#08B0B3;
+    color:white;
+
+    transition:background-color .15s;
+
+    box-sizing:border-box;
+    display: inline;
+
+}
+
+.av_btn.info {
+    background-color: #0dcaf0;
+}
+
+.av_btn.info:hover {
+    background-color: #9eeaf9;
+}
+
+.av_btn.confirm {
+    background-color: #75b798;
+}
+
+.av_btn.confirm:hover {
+    background-color: #bfe2e9;
+}
+
+.av_btn:hover{
+    cursor:pointer;
+    background-color:#6ea8fe;
+}
+.av_btn:active{
+    background-color:#297b81;
+    transform:translateY(1px)
+}
+.av_btn:disabled{opacity:.35 !important;cursor:not-allowed}
+
+.av_btn.genSeed{
+    margin: 10px;
+    width: 200px;
+}
+
+.inventorySlotItem {
+    image-rendering: pixelated;
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-position: 16px;
+    background-repeat: no-repeat;
+    background-size: 256px;
+    background-image: url('ItemsAll.png');
+}
